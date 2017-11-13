@@ -24,7 +24,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-firebase" spec="~0.1.24" />
-    <plugin name="onesignal-cordova-plugin"  />
+<plugin name="onesignal-cordova-plugin" spec="~2.2.2" />
     <config-file platform="android" parent="/manifest/application" mode="merge">
     <activity android:launchMode="singleTop" />
 </config-file>
