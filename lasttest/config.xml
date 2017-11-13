@@ -26,6 +26,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-firebase" spec="~0.1.24" />
-<preference name="android-minSdkVersion" value="14" />
+<preference name="android-minSdkVersion"  />
   <plugin name="onesignal-cordova-plugin" spec="~2.2.2" />
 </widget>
