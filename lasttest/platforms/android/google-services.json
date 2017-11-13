@@ -1,27 +1,25 @@
 {
   "project_info": {
-    "project_number": "670967938531",
-    "firebase_url": "https://simple-push-cordova-e52db.firebaseio.com",
-    "project_id": "simple-push-cordova-e52db",
-    "storage_bucket": "simple-push-cordova-e52db.appspot.com"
+    "project_number": "211386152259",
+    "project_id": "phonegaptest-b0835"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:670967938531:android:083b7ced675175b0",
+        "mobilesdk_app_id": "1:211386152259:android:083b7ced675175b0",
         "android_client_info": {
           "package_name": "com.apptest.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "670967938531-tka16ibhsqjge1e4lpp1ruipcassi9li.apps.googleusercontent.com",
+          "client_id": "211386152259-e8uqil39qa138vq1sfndsa4k8l746hb2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDCnlVxc1BPc7Mk_5mu-ZYaa86EvtbXoVA"
+          "current_key": "AIzaSyAQhbm09wzg-5QoT3GYbJziRKqUJbHiN30"
         }
       ],
       "services": {
@@ -33,7 +31,7 @@
           "other_platform_oauth_client": []
         },
         "ads_service": {
-          "status": 2
+          "status": 1
         }
       }
     }

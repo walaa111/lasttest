@@ -31,7 +31,6 @@ buildscript {
     // and https://issues.apache.org/jira/browse/CB-8143
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.0'
-        
     }
 }
 
@@ -173,16 +172,7 @@ android {
         if (cdvMinSdkVersion != null) {
             minSdkVersion cdvMinSdkVersion
         }
-   
-
-      defaultConfig {
-         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
-                                 onesignal_app_id               : "79ed7861-5a1c-4ae4-bf13-5e192e61770c",
-                                 onesignal_google_project_number: "211386152259"]
-       }
-   
-
-    
+    }
 
     lintOptions {
       abortOnError false;
