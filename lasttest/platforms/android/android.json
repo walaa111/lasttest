@@ -1,42 +1,42 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
-    },
-    "config_munge": {
-        "files": {
-            "res/xml/config.xml": {
-                "parents": {
-                    "/*": []
-                }
-            },
-            "res/values/strings.xml": {
-                "parents": {
-                    "/resources": []
-                }
-            },
-            "AndroidManifest.xml": {
-                "parents": {
-                    "/*": [],
-                    "/manifest/application": []
-                }
-            }
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": []
         }
-    },
-    "installed_plugins": {
-        "cordova-android-play-services-gradle-release": {
-            "PLAY_SERVICES_VERSION": "11.+",
-            "PACKAGE_NAME": "com.apptest.app"
-        },
-        "cordova-android-support-gradle-release": {
-            "ANDROID_SUPPORT_VERSION": "26.+",
-            "PACKAGE_NAME": "com.apptest.app"
+      },
+      "res/values/strings.xml": {
+        "parents": {
+          "/resources": []
         }
-    },
-    "dependent_plugins": {},
-    "modules": [],
-    "plugin_metadata": {
-        "cordova-android-play-services-gradle-release": "1.1.4",
-        "cordova-android-support-gradle-release": "1.1.5"
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/*": [],
+          "/manifest/application": []
+        }
+      }
     }
+  },
+  "installed_plugins": {
+    "cordova-android-play-services-gradle-release": {
+      "PLAY_SERVICES_VERSION": "11.+",
+      "PACKAGE_NAME": "com.apptest.app"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "26.+",
+      "PACKAGE_NAME": "com.apptest.app"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [],
+  "plugin_metadata": {
+    "cordova-android-play-services-gradle-release": "1.1.4",
+    "cordova-android-support-gradle-release": "1.1.5"
+  }
 }
