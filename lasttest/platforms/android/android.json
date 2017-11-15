@@ -70,6 +70,10 @@
     "installed_plugins": {
         "cordova-plugin-firebase": {
             "PACKAGE_NAME": "com.apptest.app"
+        },
+        "cordova-android-play-services-gradle-release": {
+            "PLAY_SERVICES_VERSION": "11.+",
+            "PACKAGE_NAME": "com.apptest.app"
         }
     },
     "dependent_plugins": {},
@@ -84,6 +88,7 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-firebase": "0.1.24"
+        "cordova-plugin-firebase": "0.1.24",
+        "cordova-android-play-services-gradle-release": "1.1.4"
     }
 }

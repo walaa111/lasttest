@@ -1,15 +1,19 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.apptest.app"
     },
-    "config_munge": {
-        "files": {}
-    },
-    "installed_plugins": {
-        "cordova-plugin-firebase": {
-            "PACKAGE_NAME": "com.apptest.app"
-        }
-    },
-    "dependent_plugins": {}
+    "cordova-android-play-services-gradle-release": {
+      "PLAY_SERVICES_VERSION": "11.+",
+      "PACKAGE_NAME": "com.apptest.app"
+    }
+  },
+  "dependent_plugins": {}
 }
