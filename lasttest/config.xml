@@ -28,5 +28,5 @@
     <plugin name="cordova-plugin-firebase"  />
 <preference name="android-minSdkVersion" value="15" />
   <plugin name="onesignal-cordova-plugin"  />
-<plugin  name="phonegap-admob"/>
+<plugin name="com-admob-plugin" source="npm"/>
 </widget>
