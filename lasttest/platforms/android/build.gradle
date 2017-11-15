@@ -90,6 +90,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-android-play-services-gradle-release/app-cordova-android-play-services-gradle-release.gradle"
+apply from: "cordova-android-support-gradle-release/app-cordova-android-support-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -313,4 +314,3 @@ for (def func : cdvPluginPostBuildExtras) {
 if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
-apply plugin: "com.google.gms.google-services"

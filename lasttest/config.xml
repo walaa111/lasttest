@@ -29,4 +29,7 @@
     <plugin name="cordova-android-play-services-gradle-release" spec="~1.1.4">
         <variable name="PLAY_SERVICES_VERSION" value="11.+" />
     </plugin>
+    <plugin name="cordova-android-support-gradle-release" spec="~1.1.5">
+        <variable name="ANDROID_SUPPORT_VERSION" value="26.+" />
+    </plugin>
 </widget>
