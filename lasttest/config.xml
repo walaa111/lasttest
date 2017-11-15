@@ -23,7 +23,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-firebase" />
     <preference name="android-minSdkVersion" value="15" />
     <plugin name="onesignal-cordova-plugin" />
     <plugin name="com-admob-plugin" source="npm" />

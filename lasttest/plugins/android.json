@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "com.apptest.app"
-    },
     "cordova-android-play-services-gradle-release": {
       "PLAY_SERVICES_VERSION": "11.+",
       "PACKAGE_NAME": "com.apptest.app"
